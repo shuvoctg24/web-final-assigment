@@ -1,0 +1,117 @@
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .ml-5{
+        margin-left: 10rem;
+    }
+    .ml-3{
+        margin-left: 10rem;
+    }
+    .type{
+        color: white;
+        padding: 5px;
+        background-color: red;
+        top: 30px;
+        left: 20px;
+    }
+    .type1{
+        color: white;
+        padding: 5px;
+        background-color: green;
+        top: 30px;
+        left: 20px;
+    }
+    .bg-banner{
+        background: rgba(119, 119, 119, 0.687) url(/img/cover.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .sub-btn{
+       border: solid black 1px;
+       border-radius: 0;
+       width: 4rem;
+       padding: 5px 10px;
+    }
+    .sub-btn:hover{
+       background-color: green;
+       border: none;
+       width: 4rem;
+       padding: 5px 10px;
+       color: white;
+    }
+    .sub{
+        padding: 7px 10px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.224);
+        width: 10rem;
+    }
+    .last-footer{
+        padding-top: 2rem;
+        padding-bottom: 8rem;
+        background-color: rgba(153, 244, 250, 0.411);
+    }
+    small{
+        font-size: 12px;
+    }
+
+
+
+
+/* Top icon section */
+
+    .icon-img {
+        width: 40px;
+        height: 40px;
+    
+    }
+    
+    .fixed-button {
+        position: fixed;
+        bottom: 0;
+        right: 5%;
+    }
+
+
+
+
+    /* media quary starts */
+
+    @media only screen and (min-width: 600px) {
+        .banner{
+            margin-left:2rem
+        }
+
+    }
+
+    @media only screen and (min-width: 768px) {
+        .banner{
+            margin-left:2rem
+        }
+    }
+
+    @media only screen and (min-width: 992px) {
+
+    }
+
+
+    @media only screen and (min-width: 1200px) {
+      
+        /* .bg-banner{
+            background-image: url(./img/6.jpg);
+        } */
+    }
+
+
+
+
+
+
+
+
+
+
+    

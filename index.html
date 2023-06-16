@@ -3,96 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>218|final website assignment</title>
+    <title>205 | Final website assignment</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
-<style>
-    *{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    }
-    .ml-5{
-        margin-left: 10rem;
-    }
-    .ml-3{
-        margin-left: 10rem;
-    }
-    .type{
-        color: white;
-        padding: 5px;
-        background-color: red;
-        top: 30px;
-        left: 20px;
-    }
-    .type1{
-        color: white;
-        padding: 5px;
-        background-color: green;
-        top: 30px;
-        left: 20px;
-    }
-    .bg-banner{
-        background: rgba(119, 119, 119, 0.687) url(./img/img-44.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-blend-mode: darken;
-    }
-    .sub-btn{
-       border: solid black 1px;
-       border-radius: 0;
-       width: 4rem;
-       padding: 5px 10px;
-    }
-    .sub-btn:hover{
-       background-color: green;
-       border: none;
-       width: 4rem;
-       padding: 5px 10px;
-       color: white;
-    }
-    .sub{
-        padding: 7px 10px;
-        border: none;
-        background-color: rgba(128, 128, 128, 0.224);
-        width: 10rem;
-    }
-    .last-footer{
-        padding-top: 2rem;
-        padding-bottom: 15rem;
-        background-color: rgba(153, 244, 250, 0.411);
-    }
-    small{
-        font-size: 12px;
-    }
-    /* media quary starts */
-
-    @media only screen and (min-width: 600px) {
-        .banner{
-            margin-left:2rem
-        }
-
-    }
-
-    @media only screen and (min-width: 768px) {
-        .banner{
-            margin-left:2rem
-        }
-    }
-
-    @media only screen and (min-width: 992px) {
-
-    }
-
-
-    @media only screen and (min-width: 1200px) {
-      
-        /* .bg-banner{
-            background-image: url(./img/6.jpg);
-        } */
-    }
-</style>
 <body>
+
     <header class="container">
         <nav class="navbar navbar-expand-lg mb-3">
             <div class="container-fluid ">
@@ -100,6 +17,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-5">
                   <a class="nav-link active" aria-current="page" href="#">HOME</a>
@@ -115,6 +33,8 @@
             </div>
           </nav>
     </header>
+
+
     <div class="container">
         <div>
             <div class=" bg-body-secondary pb-5">
@@ -123,8 +43,9 @@
                     <div class="row align-items-center">
                         <div class="col-md-8 text-white ">
                            <h1>Find Your Favourite Proparty</h1>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores repudiandae doloremque dolorum velit dolorem error commodi! Velit, odio. Libero atque quibusdam autem eaque tenetur voluptatibus sequi quia, magnam itaque.</p>
-                           <button class="btn btn-primary me-2">Contact Us</button><button class="btn btn-primary">Read More</button>
+                           <p>Property Finder has opened a new era for everyone by creating a single, integrated property management solution in property market.</p>
+                           <button class="btn btn-primary me-2 btn-1">Contact Us</button>
+                           <button class="btn btn-primary">Read More</button>
                         </div>
                         <div class="col-md-4">
                             <div class="card border-0 p-1 position-relative">
@@ -362,6 +283,10 @@
             </div>
           </div>
     </div>
+
+
+    <!-- Proparty By City -->
+
     <main class="container mt-5 mb-5">
         <div>
             <div class="text-center">
@@ -383,6 +308,11 @@
                 </div>
             </div>
         </div> 
+
+
+
+        <!-- Trusted Agents -->
+
             <div class="bg-body-secondary p-5 mt-5">
                 <div class="text-center mb-5">
                     <h2 class="mt-5">Trusted Agents</h2>
@@ -409,7 +339,11 @@
                         <p>Saleing Agent</p>
                     </div>
                 </div>
+
                 <hr>
+
+                <!-- Blog Writes For You -->
+
                 <div class="row p-2 gy-3">
                     <div class="text-center">
                         <h2>Blog Writes For You</h2>
@@ -474,14 +408,23 @@
                     </div>
                 </div>
             </div>         
+    
+    
+        <!-- Professional Team & Agents -->
+
+        <section class="container bg-dark mb-5">
+            <div class=" text-white text-center p-5">
+                <h2>Join Our Professional Team & Agents <br> to build Your House</h2>
+                <p> eum molestias esse minus similique .</p>
+                <button class="btn btn-success">Contact Us</button><button class="btn btn-success ms-2">Read More</button>
+            </div>
+        </section>
     </main>
-    <section class="container bg-dark mb-5">
-        <div class=" text-white text-center p-5">
-            <h2>Join Our Professional Team & Agents <br> to build Your House</h2>
-            <p> eum molestias esse minus similique .</p>
-            <button class="btn btn-success">Contact Us</button><button class="btn btn-success ms-2">Read More</button>
-        </div>
-    </section>
+
+
+
+    <!-- Footer Section -->
+    
     <footer class="mt-5 text-center text-md-start mb-5">
         <div class="container text-center text-md-start">
             <div class="row text-center text-md-start">
@@ -521,10 +464,20 @@
             </div>
         </div>
     </footer>
+
     <div class="text-center mt-5 last-footer rounded">
-        <p ><small>© Copyright <b> 218 | jasmin chakma</b> All Right Reserved</small></p>
+        <p ><small>© Copyright <b> 205 | Abdur Rahim</b> All Right Reserved</small></p>
     </div>
     
+
+    <!-- Top icon section -->
+
+    <div class="fixed-button">
+        <a href="#"><img src="/img/top-icon.png" alt="" class="icon-img"></a>
+      </div>
+
+
+
     <script src="https://kit.fontawesome.com/5de757eba6.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
